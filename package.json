@@ -1,0 +1,26 @@
+{
+  "name": "Voice-Manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silenti88/Voice-Manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silenti88/Voice-Manager/issues"
+  },
+  "homepage": "https://github.com/silenti88/Voice-Manager#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "engines":{
+    "node": "10.x"
+  }
+}
