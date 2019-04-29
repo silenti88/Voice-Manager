@@ -6,7 +6,7 @@ client.on("ready", () => {
 });
 
 client.on("voiceStateUpdate", async (oldMember,newMember) =>{
-    if(newMember.voiceChannelID === "568149581301285020" && !newMember.roles.has("570768306265391104") && newMember.guild.owner.id !== newMember.user.id){
+    if(newMember.voiceChannelID === "572160029361438753" && !newMember.roles.has("570768306265391104") && newMember.guild.owner.id !== newMember.user.id){
         if(oldMember.selfMute !== newMember.selfMute || oldMember.selfDeaf !== newMember.selfDeaf) return;
         if(oldMember.serverMute !== newMember.serverMute || oldMember.serverDeaf !== newMember.serverDeaf) return;
 
